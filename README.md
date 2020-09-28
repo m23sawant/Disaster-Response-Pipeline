@@ -5,7 +5,7 @@ In this project, I have built a model to classify messages that are sent during 
 
 In the project, I have also built a basic ETL and Machine Learning pipeline to streamline the steps. Also, this project contains a web app where you can input a message and get classification results.
 
-
+[](https://github.com/mayuresh23sawant/Disaster-Response-Pipeline/blob/master/disaster.gif)
 
 ## Data:
 The data comes from [appen](https://appen.com/datasets/combined-disaster-response-data/) containing 30,000 messages drawn from events including an earthquake in Haiti in 2010, an earthquake in Chile in 2010, floods in Pakistan in 2010, super-storm Sandy in the U.S.A. in 2012, and news articles spanning a large number of years and 100s of different disasters. The data has been encoded with 36 different categories related to disaster response and has been stripped of messages with sensitive information in their entirety. This dataset contains the original message in its original language, the English translation, and dozens of classes for message content. These classes are noted in column titles with a simple binary 1= yes, 2=no.
@@ -27,7 +27,7 @@ The data comes from [appen](https://appen.com/datasets/combined-disaster-respons
                 |-- classifier.pkl
                 |-- train_classifier.py
           |-- README
-
+~~~~~~~
 ## File Descriptions
 1. App folder includes the templates folder and "run.py" for the web application
 2. Data folder contains "DisasterResponse.db", "disaster_categories.csv", "disaster_messages.csv" and "process_data.py" for data cleaning and transfering.
